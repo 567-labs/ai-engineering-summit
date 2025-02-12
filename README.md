@@ -8,23 +8,32 @@ In this workshop, we'll use an e-commerce RAG application as a case study to dem
 
 ## Notebook Breakdown
 
-### Notebook 1: RAG Fundamentals and Evaluation
+## Notebook 1: Why Semantic Search Isn't Enough
 
-**Summary**: Learn to evaluate and improve RAG systems using an e-commerce product catalog as a case study. We'll build test datasets with synthetic queries, implement evaluation metrics, and measure retrieval performance objectively.
+**Summary**: In this notebook, we'll talk briefly about why you want to prioritise benchmarking retrieval quality in order to iterate quickly when building a RAG application. We'll then explore some of the limitations of semantic search and how it falls short when handling real-world queries that involve multiple constraints like price ranges, complementary items, and specific product attributes.
 
-**Learning Outcomes**
+**Key Takeaways**:
 
-- Generate synthetic shopping queries for testing retrieval
-- Understand and address semantic search edge cases
-- Master key metrics for measuring product retrieval accuracy
-- Compute an initial baseline for semantic search for our RAG application
+- Understanding when and why semantic search fails for complex queries
+- Identifying common retrieval failure patterns in real-world applications
+- Learning to implement basic RAG with proper evaluation methods
 
-### Notebook 2: Metadata-Enhanced Retrieval
+## Notebook 2: Systematic RAG Evaluation
 
-**Summary**: We'll use a vision language model to generate high-quality product metadata using a predefined taxonomy. We'll then use this taxonomy to generate query filters when we receive a user query, ensuring results are semantically relevant and conform to business requirements. We’ll then use the original metrics we covered in Notebook 1 and quantify the corresponding improvement that our new metrics have generated.
+**Summary**: In this notebook, we'll discuss how synthetic data can be used to quickly bootstrap an evaluation dataset and some practical considerations to consider when building a synthetic dataset. We'll then show you how to use two simple metrics - Mean Reciprocal Rank (MRR) and Recall - to establish baseline performance measurements for your RAG application.
 
-**Learning Outcomes**:
+**Key Takeaways**:
 
-- Learn techniques for generating high-quality product metadata systematically
-- Build effective metadata filtering systems to complement semantic search
-- Quantify improvements using recall and MRR as objective metrics
+- Understanding the importance of synthetic data in RAG evaluation
+- Creating synthetic datasets for testing retrieval quality
+- Implementing key metrics to measure RAG system performance
+
+## Notebook 3: Enhancing Retrieval with Metadata
+
+**Summary**: In the last notebook, we'll implement metadata filtering when we recieve a user query. This allows us to filter for results based on implicit user requirements. We'll quantify this improvement by showing how MRR and Recall metrics improve as a result of this filtering before exploring how we might use these same metrics to evaluate the performance of better embedding chunks.
+
+**Key Takeaways**:
+
+- Implementing effective metadata filtering systems to complement semantic search
+- Combining structured filters with semantic search for better retrieval
+- Measuring and quantifying improvements in retrieval quality
