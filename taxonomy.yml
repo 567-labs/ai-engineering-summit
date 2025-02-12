@@ -1,0 +1,90 @@
+categories:
+  - name: Tops
+    types:
+      - T-Shirts
+      - Blouses
+      - Sweaters
+      - Cardigans
+      - Tank Tops
+      - Hoodies
+      - Sweatshirts
+    attributes:
+      - Sleeve Length:
+          - Sleeveless
+          - Short Sleeve
+          - 3/4 Sleeve
+          - Long Sleeve
+      - Neckline:
+          - Crew Neck
+          - V-Neck
+          - Turtleneck
+          - Scoop Neck
+          - Cowl Neck
+      - Fit:
+          - Regular
+          - Slim
+          - Oversized
+          - Cropped
+
+  - name: Bottoms
+    types:
+      - Pants
+      - Jeans
+      - Shorts
+      - Skirts
+      - Leggings
+    attributes:
+      - Rise:
+          - Low Rise
+          - Mid Rise
+          - High Rise
+      - Length:
+          - Mini
+          - Knee Length
+          - Midi
+          - Maxi
+          - Cropped
+          - Full Length
+      - Fit:
+          - Skinny
+          - Straight
+          - Wide Leg
+          - Bootcut
+          - Relaxed
+
+  - name: Dresses
+    types:
+      - Casual Dresses
+      - Formal Dresses
+      - Party Dresses
+      - Maxi Dresses
+      - Mini Dresses
+    attributes:
+      - Sleeve Length:
+          - Sleeveless
+          - Short Sleeve
+          - Long Sleeve
+      - Silhouette:
+          - A-Line
+          - Bodycon
+          - Shift
+          - Wrap
+          - Empire Waist
+
+  - name: Outerwear
+    types:
+      - Jackets
+      - Coats
+      - Blazers
+      - Vests
+    attributes:
+      - Style:
+          - Bomber
+          - Denim
+          - Leather
+          - Puffer
+          - Trench
+      - Length:
+          - Cropped
+          - Regular
+          - Long

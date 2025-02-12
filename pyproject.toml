@@ -1,0 +1,14 @@
+[project]
+name = "ai-engineer-summit-talk"
+version = "0.1.0"
+description = "This is the code for the AI Engineering Summit talk where we cover how to systematically build out your RAG system"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "braintrust>=0.0.184",
+    "datasets>=3.2.0",
+    "instructor>=1.7.2",
+    "lancedb>=0.19.0",
+    "openai>=1.61.1",
+    "pillow>=11.1.0",
+]
