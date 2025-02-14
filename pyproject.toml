@@ -5,9 +5,9 @@ description = "This is the code for the AI Engineering Summit talk where we cove
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "braintrust>=0.0.184",
     "datasets>=3.2.0",
     "instructor>=1.7.2",
+    "ipykernel>=6.29.5",
     "lancedb>=0.19.0",
     "openai>=1.61.1",
     "pillow>=11.1.0",
