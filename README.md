@@ -1,8 +1,8 @@
 # Systematically Improving Your RAG Application
 
-> **Note** : This workshop is a preview of the material from [Systematically Improving RAG Applications](https://maven.com/applied-llms/rag-playbook).
+> **Note** : These notebooks are a preview of [Systematically Improving Your RAG Application](https://maven.com/applied-llms/rag-playbook) which shows you how to turns RAG from a risky experiment into a structured, data-driven practice. You'll learn how to pinpoint what's working, diagnose what's not, and steadily raise the bar on performance and user satisfaction.
 >
-> Check out [improvingrag.com](https://improvingrag.com) which walks through the same RAG playbook that you can use in your own application in more detail.
+> For a preview of the course, please check out [improvingrag.com](https://improvingrag.com) which provides a free preview of the course material.
 
 ## Installation Instructions
 
@@ -11,13 +11,19 @@ Installing the necessary packages for this set of notebooks is relatively straig
 1. First, clone the repository:
 
 ```bash
-git clone https://github.com/ivanleomk/ai-engineer-summit.git
+git clone https://github.com/567-labs/ai-engineering-summit.git
 ```
 
 2. Then, make sure to install the necessary packages. We recommend using a virtual environment to do this with `uv`. To install `uv`, you can follow the instructions [here](https://docs.astral.sh/uv/getting-started/installation/). Once you've done so, you can install the dependencies by running the following command:
 
 ```bash
 uv sync
+```
+
+if you're not using `uv`, you can install the dependencies by running the following commands:
+
+```bash
+pip install -r pyproject.toml
 ```
 
 3. Once you've done so, you can run the notebooks. Don't forget to select the right kernel.
