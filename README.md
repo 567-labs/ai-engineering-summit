@@ -1,8 +1,6 @@
 # Systematically Improving Your RAG Application
 
-> **Note** : These notebooks are a preview of [Systematically Improving Your RAG Application](https://maven.com/applied-llms/rag-playbook) which shows you how to turns RAG from a risky experiment into a structured, data-driven practice. You'll learn how to pinpoint what's working, diagnose what's not, and steadily raise the bar on performance and user satisfaction.
->
-> For a preview of the course, please check out [improvingrag.com](https://improvingrag.com) which provides a free preview of the course material.
+> **Note** : These notebooks are a preview of what we cover in [improvingrag.com](https://improvingrag.com). Stop settling for "Looks Good to Me" and start building better systems. Learn how to turn RAG from a risky experiment into a structured, data-driven practice. Check out [improvingrag.com](https://improvingrag.com) for a proven foundational framework to help you go beyond the basics to improve performance, quality, and user experience.
 
 ## Installation Instructions
 
